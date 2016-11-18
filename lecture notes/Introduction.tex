@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+\usepackage{nameref}
+\usepackage{multicol}
+\usepackage{pifont}
+\usepackage[T5]{fontenc}
+
+\usepackage[utf8]{inputenc}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\setbeamertemplate{caption}[numbered]
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Python cho quản trị hệ thống và mạng]{Python cho quản trị hệ thống và mạng } % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Vu Duc Ly} % Your name
+%\institute[UCLA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\hyperlink{intro}{\beamerbutton{Start}}
+\end{frame}
+
+\begin{frame}[label=intro]
+\frametitle{Giới Thiệu Khóa Học} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\section{Mục Tiêu .} 
+\begin{frame}[label=muctieu]
+\frametitle{Mục Tiêu}
+Sau khóa học, học viên có thể
+\begin{itemize}
+\item Sử dụng python để tự động hóa các công việc quản trị mạng và hệ thống.
+\item Sử dụng các phần mềm mã nguồn mở phục vụ cho mục đích quản trị.
+\item Xây dựng các plugins cho các phần mềm mã nguồn mở.
+\end{itemize} 
+
+
+\end{frame}
+
+\section{Chương Trình Học.} 
+\begin{frame}[label=sylabus]
+\frametitle{Chương Trình Học}
+
+Khóa học diễn ra trong 5 tuần với các nội dung như sau. 
+
+\begin{tabular}{ |p{4cm}||p{3cm}||p{3cm}|  }
+ \hline
+ \multicolumn{3}{|c|}{Chương trình học} \\
+ \hline
+ Tuần 1& Tuần 2 & Tuần 3 \\
+ \hline
+  $\bullet$ Thiết lập môi trường python \newline
+  $\bullet$ Cài đặt gói (package) thư viện \newline      
+  $\bullet$ Cú pháp căn bản \newline
+  $\bullet$ Các kiểu biến và tính toán \newline
+  $\bullet$ Cấu trúc quyết định và vòng lặp \newline
+  $\bullet$ Cấu trúc dữ liệu cơ bản  \newline
+  $\bullet$ Sử dụng hàm   \newline
+   & $\bullet$ Thu thập thông tin hệ thống: CPU, memory, disk \newline
+   $\bullet$ Quản lý các tiến trình (process) \newline $\bullet$ Giao tiếp với firewall \newline   & $\bullet$ Phân tích log của các dịch vụ \newline $\bullet$ Làm việc với các hệ thống cơ sở dữ liệu \newline \\
+ \hline
+\end{tabular}
+
+
+\end{frame}
+
+\begin{frame}[label=syllabus]
+\frametitle{Chương Trình Học (tiếp theo)}
+
+\begin{tabular}{ |p{4cm}||p{4cm}||  }
+ \hline
+ \multicolumn{2}{|c|}{Chương trình học} \\
+ \hline
+ Tuần 4 & Tuần 5  \\
+ \hline
+$\bullet$ Thu thập và phân tích thông tin từ các thiết bị mạng router, switch \newline
+   & $\bullet$ Sử dụng và tích hợp các mã nguồn mở   \newline  $\bullet$ Final project  \newline   \\
+ \hline
+\end{tabular}
+
+
+\end{frame}
+
+%------------------------------------------------
+
+
+
+\begin{frame}
+\Huge{\centerline{Thank you}}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

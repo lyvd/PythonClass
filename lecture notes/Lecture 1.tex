@@ -44,6 +44,9 @@
 \usepackage{nameref}
 \usepackage{multicol}
 \usepackage{pifont}
+\usepackage[T5]{fontenc}
+
+\usepackage[utf8]{inputenc}
 %\usetheme{Malmoe}
 %\usetheme{Marburg}
 %\usetheme{Montpellier}
@@ -86,7 +89,7 @@
 %	TITLE PAGE
 %----------------------------------------------------------------------------------------
 
-\title[Weekly Report]{Weekly Report } % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[Python cho quản trị hệ thống và mạng]{Python cho quản trị hệ thống và mạng } % The short title appears at the bottom of every slide, the full title is only on the title page
 
 \author{Vu Duc Ly} % Your name
 %\institute[UCLA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
@@ -98,11 +101,11 @@
 
 \begin{frame}
 \titlepage % Print the title page as the first slide
-\hyperlink{currentwork}{\beamerbutton{Start}}
+\hyperlink{intro}{\beamerbutton{Start}}
 \end{frame}
 
-\begin{frame}[label=currentwork]
-\frametitle{Current Works} % Table of contents slide, comment this block out to remove it
+\begin{frame}[label=intro]
+\frametitle{Giới Thiệu Khóa Học} % Table of contents slide, comment this block out to remove it
 \tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
 \end{frame}
 
@@ -111,50 +114,62 @@
 %----------------------------------------------------------------------------------------
 
 %------------------------------------------------
-\section{Feature Engineering.} 
-\begin{frame}[label=fe]
-\frametitle{Feature Engineering.}
-Before using the instruction sequences as inputs to RNNs, we need to convert the data to sequences of numerical feature vectors. 
+\section{Mục Tiêu .} 
+\begin{frame}[label=muctieu]
+\frametitle{Mục Tiêu}
+Sau khóa học, học viên có thể
+\begin{itemize}
+\item Sử dụng python để tự động hóa các công việc quản trị mạng và hệ thống.
+\item Sử dụng các phần mềm mã nguồn mở phục vụ cho mục đích quản trị.
+\item Xây dựng các plugins cho các phần mềm mã nguồn mở.
+\end{itemize} 
 
-\begin{figure}[!ht]
-	\centering
-	\includegraphics[scale=0.52]{vector_mapping.png}
-	\caption{A typical basic block}
-	\label{fig:vector_mapping}
-\end{figure}
 \hyperlink{currentwork}{\beamerbutton{Back}}
 \hyperlink{model}{\beamerbutton{Next}}
 \end{frame}
 
-\section{Malware Classification Model.} 
-\begin{frame}[label=model]
-\frametitle{Malware Classification Model}
+\section{Chương Trình Học.} 
+\begin{frame}[label=sylabus]
+\frametitle{Chương Trình Học}
 
-Our malware classification process is displayed in 
+Khóa học diễn ra trong 5 tuần với các nội dung như sau. 
 
-\begin{figure}[!ht]
-\centering
-\includegraphics[scale=0.4]{system_model.pdf}
-\caption{Overview of our malware classification system }
-\label{fig:system_model}
-\end{figure}
+\begin{tabular}{ |p{4cm}||p{3cm}||p{3cm}|  }
+ \hline
+ \multicolumn{3}{|c|}{Chương trình học} \\
+ \hline
+ Tuần 1& Tuần 2 & Tuần 3 \\
+ \hline
+  $\bullet$ Thiết lập môi trường python \newline
+  $\bullet$ Cài đặt gói (package) thư viện \newline      
+  $\bullet$ Cú pháp căn bản \newline
+  $\bullet$ Các kiểu biến và tính toán \newline
+  $\bullet$ Cấu trúc quyết định và vòng lặp \newline
+  $\bullet$ Cấu trúc dữ liệu cơ bản  \newline
+  $\bullet$ Sử dụng hàm   \newline
+   & $\bullet$ Thu thập thông tin hệ thống: CPU, memory, disk \newline
+   $\bullet$ Quản lý các tiến trình (process) \newline $\bullet$ Giao tiếp với firewall \newline   & $\bullet$ Phân tích log của các dịch vụ \newline \\
+ \hline
+\end{tabular}
 
  
 \hyperlink{fe}{\beamerbutton{Back}}
 \hyperlink{plan}{\beamerbutton{Next}}
 \end{frame}
 
+\begin{frame}[label=syllabus]
+\frametitle{Chương Trình Học (tiếp theo)}
 
-
-
-\section{Next Plan}
-\begin{frame}[label=plan]
-\frametitle{My Plan}
-I will 
-\begin{itemize}
-	\item Collect malware (from Virusshare) and extract malware's instruction sequences 
-
-\end{itemize} 
+\begin{tabular}{ |p{4cm}||p{4cm}||  }
+ \hline
+ \multicolumn{2}{|c|}{Chương trình học} \\
+ \hline
+ Tuần 4 & Tuần 5  \\
+ \hline
+$\bullet$ Thu thập và phân tích thông tin từ các thiết bị mạng router, switch \newline
+   & $\bullet$ Sử dụng và tích hợp các mã nguồn mở   \newline  $\bullet$ Final project  \newline   \\
+ \hline
+\end{tabular}
 
 \hyperlink{currentwork}{\beamerbutton{Back}}
 

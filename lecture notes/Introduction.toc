@@ -1,0 +1,3 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{M\IeC {\d u}c Ti\IeC {\^e}u .}{3}{0}{1}
+\beamer@sectionintoc {2}{Ch\IeC {\uhorn }\IeC {\ohorn }ng Tr\IeC {\`\i }nh H\IeC {\d o}c.}{4}{0}{2}
