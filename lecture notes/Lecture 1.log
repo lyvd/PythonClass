@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.19)  18 NOV 2016 15:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.19)  18 NOV 2016 15:25
 entering extended mode
 **Lecture*1.tex
 ("C:\Users\LyVu\Documents\GitHub\PythonClass\lecture notes\Lecture 1.tex"
@@ -1202,36 +1202,13 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@thisrulewidth=\dimen205
 )
 
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\h' on input line 99.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+i'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 99.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 99.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ecircumflex' on input line 99.
-
-
-Package hyperref Warning: Composite letter `\textacute+\ocircumflex'
+Package hyperref Warning: Composite letter `\textacute+\ohorn'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textacute' on input line 99.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ocircumflex' on input line 99.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+a'
-(hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 99.
+(hyperref)                removing `\ohorn' on input line 99.
 
 ("C:\Users\LyVu\Documents\GitHub\PythonClass\lecture notes\Lecture 1.aux")
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -1406,7 +1383,7 @@ LaTeX Info: Redefining \includegraphics on input line 99.
 
 ]
 
-Package hyperref Warning: Composite letter `\textdotbelow+u'
+Package hyperref Warning: Composite letter `\textdotbelow+a'
 (hyperref)                not defined in PD1 encoding,
 (hyperref)                removing `\textdotbelow' on input line 117.
 
@@ -1415,49 +1392,49 @@ Package hyperref Warning: Composite letter `\textdotbelow+u'
 ]
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 131.
+(hyperref)                removing `\uhorn' on input line 130.
 
 
 Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ohorn' on input line 131.
+(hyperref)                removing `\ohorn' on input line 130.
 
 
 Package hyperref Warning: Composite letter `\textdotbelow+o'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 131.
+(hyperref)                removing `\textdotbelow' on input line 130.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 158.
+LaTeX Font Info:    Try loading font information for U+msa on input line 157.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 158.
+LaTeX Font Info:    Try loading font information for U+msb on input line 157.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 158.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 157.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 158.
+line 157.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\sansmathaccent\ot1mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 \T5/cmss/m/n/10.95 tin h» thèng:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
 \T5/cmss/m/n/10.95 CPU, mem-ory,
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 158--158
+Underfull \hbox (badness 3590) in paragraph at lines 157--157
 $\OMS/cmsy/m/n/10.95 $ \T5/cmss/m/n/10.95 Giao ti¸p vîi
  []
 
@@ -1471,21 +1448,21 @@ $\OMS/cmsy/m/n/10.95 $ \T5/cmss/m/n/10.95 Giao ti¸p vîi
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 188.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 188.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
 
 ("C:\Users\LyVu\Documents\GitHub\PythonClass\lecture notes\Lecture 1.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 188.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 188.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
 Package rerunfilecheck Info: File `Lecture*1.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 188.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
- 16817 strings out of 493921
- 309609 string characters out of 3147285
- 380868 words of memory out of 3000000
- 19639 multiletter control sequences out of 15000+200000
+ 16811 strings out of 493921
+ 309520 string characters out of 3147285
+ 380802 words of memory out of 3000000
+ 19633 multiletter control sequences out of 15000+200000
  16446 words of font info for 47 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,16n,60p,399b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1506,7 +1483,7 @@ ram Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss10.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/vntex/vnr/vnss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/v
 ntex/vnr/vnss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss8.pf
 b>
-Output written on "Lecture 1.pdf" (6 pages, 102701 bytes).
+Output written on "Lecture 1.pdf" (6 pages, 99605 bytes).
 PDF statistics:
  237 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
