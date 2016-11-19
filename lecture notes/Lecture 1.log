@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.19)  18 NOV 2016 15:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.19)  19 NOV 2016 12:57
 entering extended mode
 **Lecture*1.tex
 ("C:\Users\LyVu\Documents\GitHub\PythonClass\lecture notes\Lecture 1.tex"
@@ -799,10 +799,35 @@ LaTeX Font Info:    Try loading font information for T5+cmss on input line 100.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\vntex\t5cmss.fd"
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count163
+\lst@gtempboxa=\box79
+\lst@token=\toks40
+\lst@length=\count164
+\lst@currlwidth=\dimen193
+\lst@column=\count165
+\lst@pos=\count166
+\lst@lostspace=\dimen194
+\lst@width=\dimen195
+\lst@newlines=\count167
+\lst@lineno=\count168
+\lst@maxwidth=\dimen196
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count169
+\lst@skipnumbers=\count170
+\lst@framebox=\box80
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks40
-\inpenc@posthook=\toks41
+\inpenc@prehook=\toks41
+\inpenc@posthook=\toks42
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -1183,24 +1208,38 @@ LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen193
-\lightrulewidth=\dimen194
-\cmidrulewidth=\dimen195
-\belowrulesep=\dimen196
-\belowbottomsep=\dimen197
-\aboverulesep=\dimen198
-\abovetopsep=\dimen199
-\cmidrulesep=\dimen200
-\cmidrulekern=\dimen201
-\defaultaddspace=\dimen202
-\@cmidla=\count163
-\@cmidlb=\count164
-\@aboverulesep=\dimen203
-\@belowrulesep=\dimen204
-\@thisruleclass=\count165
-\@lastruleclass=\count166
-\@thisrulewidth=\dimen205
+\heavyrulewidth=\dimen197
+\lightrulewidth=\dimen198
+\cmidrulewidth=\dimen199
+\belowrulesep=\dimen200
+\belowbottomsep=\dimen201
+\aboverulesep=\dimen202
+\abovetopsep=\dimen203
+\cmidrulesep=\dimen204
+\cmidrulekern=\dimen205
+\defaultaddspace=\dimen206
+\@cmidla=\count171
+\@cmidlb=\count172
+\@aboverulesep=\dimen207
+\@belowrulesep=\dimen208
+\@thisruleclass=\count173
+\@lastruleclass=\count174
+\@thisrulewidth=\dimen209
 )
+
+Package hyperref Warning: Composite letter `\texttilde+u'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\texttilde' on input line 94.
+
+
+Package hyperref Warning: Composite letter `\textacute+\uhorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 94.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 94.
+
 
 Package hyperref Warning: Composite letter `\textacute+\ohorn'
 (hyperref)                not defined in PD1 encoding,
@@ -1269,19 +1308,19 @@ LaTeX Font Info:    ... okay on input line 99.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count167
-\scratchdimen=\dimen206
-\scratchbox=\box79
-\nofMPsegments=\count168
-\nofMParguments=\count169
-\everyMPshowfont=\toks42
-\MPscratchCnt=\count170
-\MPscratchDim=\dimen207
-\MPnumerator=\count171
-\makeMPintoPDFobject=\count172
-\everyMPtoPDFconversion=\toks43
+\scratchcounter=\count175
+\scratchdimen=\dimen210
+\scratchbox=\box81
+\nofMPsegments=\count176
+\nofMParguments=\count177
+\everyMPshowfont=\toks43
+\MPscratchCnt=\count178
+\MPscratchDim=\dimen211
+\MPnumerator=\count179
+\makeMPintoPDFobject=\count180
+\everyMPtoPDFconversion=\toks44
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box80
+\AtBeginShipoutBox=\box82
 Package hyperref Info: Link coloring OFF on input line 99.
 LaTeX Info: Redefining \ref on input line 99.
 LaTeX Info: Redefining \pageref on input line 99.
@@ -1373,6 +1412,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 99.
+\c@lstlisting=\count181
 
 ("C:\Users\LyVu\Documents\GitHub\PythonClass\lecture notes\Lecture 1.nav")
 [1
@@ -1391,101 +1431,271 @@ Package hyperref Warning: Composite letter `\textdotbelow+a'
 
 ]
 
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\uhorn' on input line 130.
-
-
-Package hyperref Warning: Glyph not defined in PD1 encoding,
-(hyperref)                removing `\ohorn' on input line 130.
-
-
-Package hyperref Warning: Composite letter `\textdotbelow+o'
+Package hyperref Warning: Composite letter `\textacute+\ecircumflex'
 (hyperref)                not defined in PD1 encoding,
-(hyperref)                removing `\textdotbelow' on input line 130.
+(hyperref)                removing `\textacute' on input line 131.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 157.
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ecircumflex' on input line 131.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+\acircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 131.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\acircumflex' on input line 131.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 131.
+
+
+Package hyperref Warning: Composite letter `\textasciigrave+\ohorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciigrave' on input line 131.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ohorn' on input line 131.
+
+[4
+
+]
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\u' on input line 142.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 142.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 155.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 157.
+LaTeX Font Info:    Try loading font information for U+msb on input line 155.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 157.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 155.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 157.
+line 155.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\sansmathaccent\ot1mathkerncmss.fd"
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
-\T5/cmss/m/n/10.95 tin h» thèng:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
-\T5/cmss/m/n/10.95 CPU, mem-ory,
- []
-
-
-Underfull \hbox (badness 3590) in paragraph at lines 157--157
-$\OMS/cmsy/m/n/10.95 $ \T5/cmss/m/n/10.95 Giao ti¸p vîi
- []
-
-[4
-
-] [5
+[5
 
 ] [6
+
+]
+
+LaTeX Font Warning: Font shape `T5/cmss/m/it' in size <10.95> not available
+(Font)              Font shape `T5/cmss/m/sl' tried instead on input line 176.
+
+[7
+
+] [8
+
+] [9
+
+]
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\u' on input line 205.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 205.
+
+[10
+
+] [11
+
+] [12
+
+] [13
+
+]
+
+Package hyperref Warning: Composite letter `\textacute+\acircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 272.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\acircumflex' on input line 272.
+
+
+Package hyperref Warning: Composite letter `\texttilde+\uhorn'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\texttilde' on input line 272.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 272.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+\ecircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 272.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\ecircumflex' on input line 272.
+
+[14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
+
+]
+
+Package hyperref Warning: Composite letter `\textdotbelow+\acircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 388.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\acircumflex' on input line 388.
+
+
+Package hyperref Warning: Composite letter `\texttilde+e'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\texttilde' on input line 388.
+
+[19
+
+] [20
+
+] [21
+
+]
+
+Package hyperref Warning: Composite letter `\textacute+\acircumflex'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textacute' on input line 440.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\acircumflex' on input line 440.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+\abreve'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 440.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\abreve' on input line 440.
+
+[22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
+
+] [27
+
+]
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\dj' on input line 526.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+\abreve'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 526.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\abreve' on input line 526.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\h' on input line 526.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 526.
+
+
+Package hyperref Warning: Composite letter `\textdotbelow+u'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textdotbelow' on input line 526.
+
+
+Package hyperref Warning: Glyph not defined in PD1 encoding,
+(hyperref)                removing `\uhorn' on input line 526.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 540.
+
+
+LaTeX Warning: Command \uhorn invalid in math mode on input line 540.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 540.
+
+Missing character: There is no ¶ in font cmss10!
+Missing character: There is no ÷ in font cmss10!
+Missing character: There is no » in font cmss10!
+[28
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
-
-("C:\Users\LyVu\Documents\GitHub\PythonClass\lecture notes\Lecture 1.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 543.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 543.
+ ("C:\Users\LyVu\Documents\GitHub\PythonClass\lecture notes\Lecture 1.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 543.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 543.
 Package rerunfilecheck Info: File `Lecture*1.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 543.
  ) 
 Here is how much of TeX's memory you used:
- 16811 strings out of 493921
- 309520 string characters out of 3147285
- 380802 words of memory out of 3000000
- 19633 multiletter control sequences out of 15000+200000
- 16446 words of font info for 47 fonts, out of 3000000 for 9000
+ 18627 strings out of 493921
+ 337316 string characters out of 3147285
+ 415827 words of memory out of 3000000
+ 21340 multiletter control sequences out of 15000+200000
+ 20771 words of font info for 56 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 56i,16n,60p,399b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{plan} has been referenced but does not exist, rep
-laced by a fixed one
-
-pdfTeX warning (dest): name{fe} has been referenced but does not exist, replace
-d by a fixed one
-
-pdfTeX warning (dest): name{model} has been referenced but does not exist, repl
-aced by a fixed one
-
-pdfTeX warning (dest): name{currentwork} has been referenced but does not exist
-, replaced by a fixed one
-
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss10.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/vntex/vnr/vnss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/v
-ntex/vnr/vnss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss8.pf
-b>
-Output written on "Lecture 1.pdf" (6 pages, 99605 bytes).
+ 56i,16n,63p,419b,635s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/latxfont/lasy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapf
+ding/uzdr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss10.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/vntex/vnr/vnss8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/vntex/vnr/vnssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vn
+ssi10.pfb>
+Output written on "Lecture 1.pdf" (28 pages, 327137 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 989 PDF objects out of 1000 (max. 8388607)
+ 120 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
 

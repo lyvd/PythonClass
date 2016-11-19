@@ -45,7 +45,7 @@
 \usepackage{multicol}
 \usepackage{pifont}
 \usepackage[T5]{fontenc}
-
+\usepackage{listings}
 \usepackage[utf8]{inputenc}
 %\usetheme{Malmoe}
 %\usetheme{Marburg}
@@ -91,7 +91,7 @@
 
 \title[Làm quen với Python]{Làm quen với Python } % The short title appears at the bottom of every slide, the full title is only on the title page
 
-\author{Vu Duc Ly} % Your name
+\author{Vũ Đức Lý} % Your name
 %\institute[UCLA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 
 \date{\today} % Date, can be changed to a custom date
@@ -120,68 +120,424 @@
 Python thì
 \begin{itemize}
 \item Dễ học, cú pháp đơn giản.
+\item Dễ dàng mở rộng.
 \item Có rất nhiều thư viện được hỗ trợ bởi cộng đồng .
 \end{itemize} 
 
-\hyperlink{currentwork}{\beamerbutton{Back}}
-\hyperlink{model}{\beamerbutton{Next}}
+\hyperlink{intro}{\beamerbutton{Back}}
+\hyperlink{moitruong}{\beamerbutton{Next}}
 \end{frame}
 
-\section{Chương Trình Học.} 
-\begin{frame}[label=sylabus]
-\frametitle{Chương Trình Học}
+\section{Thiết lập môi trường.} 
+\begin{frame}[label=moitruong]
+\frametitle{Thiết lập môi trường}
 
-Khóa học diễn ra trong 5 tuần với các nội dung như sau. 
-
-\begin{tabular}{ |p{4cm}||p{3cm}||p{3cm}|  }
- \hline
- \multicolumn{3}{|c|}{Chương trình học} \\
- \hline
- Tuần 1& Tuần 2 & Tuần 3 \\
- \hline
-  $\bullet$ Thiết lập môi trường python \newline
-  $\bullet$ Cài đặt gói (package) thư viện \newline      
-  $\bullet$ Cú pháp căn bản \newline
-  $\bullet$ Các kiểu biến và tính toán \newline
-  $\bullet$ Cấu trúc quyết định và vòng lặp \newline
-  $\bullet$ Cấu trúc dữ liệu cơ bản  \newline
-  $\bullet$ Sử dụng hàm   \newline
-   & $\bullet$ Thu thập thông tin hệ thống: CPU, memory, disk \newline
-   $\bullet$ Quản lý các tiến trình (process) \newline $\bullet$ Giao tiếp với firewall \newline   & $\bullet$ Phân tích log của các dịch vụ \newline \\
- \hline
-\end{tabular}
+Code trong các tutorial chạy python 2.7 đi kèm với hệ đệ hành Ubuntu 16.04 . Trình soạn thảo Sublime Text 
 
  
-\hyperlink{fe}{\beamerbutton{Back}}
-\hyperlink{plan}{\beamerbutton{Next}}
+\hyperlink{intro}{\beamerbutton{Back}}
+\hyperlink{cuphap}{\beamerbutton{Next}}
 \end{frame}
 
-\begin{frame}[label=syllabus]
-\frametitle{Chương Trình Học (tiếp theo)}
+\section{Cú pháp căn bản.}
+\begin{frame}[label=cuphap]
+\frametitle{Cú pháp căn bản}
 
-\begin{tabular}{ |p{4cm}||p{4cm}||  }
- \hline
- \multicolumn{2}{|c|}{Chương trình học} \\
- \hline
- Tuần 4 & Tuần 5  \\
- \hline
-$\bullet$ Thu thập và phân tích thông tin từ các thiết bị mạng router, switch \newline
-   & $\bullet$ Sử dụng và tích hợp các mã nguồn mở   \newline  $\bullet$ Final project  \newline   \\
- \hline
-\end{tabular}
+\begin{itemize}
+\item Khai báo biến \hyperlink{khaibaobien}{\beamerbutton{$\unrhd$}}
+\item Kiểu giá trị boolean \hyperlink{boolean}{\beamerbutton{$\unrhd$}}
+\item Gán lại giá trị của biến \hyperlink{ganlaibien}{\beamerbutton{$\unrhd$}}
+\item Chú thích cho code \hyperlink{chuthich}{\beamerbutton{$\unrhd$}}
+\end{itemize}
 
-\hyperlink{currentwork}{\beamerbutton{Back}}
-
+\hyperlink{intro}{\beamerbutton{Back}}
+\hyperlink{pheptoan}{\beamerbutton{Next}}
 \end{frame}
 
+\begin{frame}[label=khaibaobien]
+\frametitle{Khai báo biến}
+
+Khi tạo các ứng dụng ta làm việc với các kiểu dữ liệu khác nhau. Ví dụ, ta cần lưu một sô lương các files để quét virus:
+
+\begin{example}
+$ number\_files = 100$
+\end{example} 
+\hyperlink{cuphap}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=boolean]
+\frametitle{Kiểu biến boolean}
+Là biến mà chỉ có hai giá trị \textit{True} (1) hoặc \textit{False} (0). Các biến kiểu này thường được dùng để điểu khiển vòng lặp hoặc được dùng như các giá trị trả về của một hàm. Nếu hàm thực hiện thành công trả về \textit{True}, ngược lại trả về \textit{False} 
+
+\begin{example}
+(1 equals 1)? True or False
+\end{example} 
+\hyperlink{cuphap}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=ganlaibien]
+\frametitle{Gán lại giá trị của biến}
+Đôi khi ta cần gán lại giá trị của một biến đã tồn tại một giá trị trước đó tùy theo một số điều kiên. Ví dụ, thay đổi số lượng files cần quét virus trong ví dụ trước 
+
+\begin{example}
+number\_files = 50
+\end{example} 
+\hyperlink{cuphap}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=chuthich]
+\frametitle{Chú thích cho code}
+Khi viết code nên sử dụng các chú thích (comments) để nói mục đích của dòng code đó, điều này làm cho chương trình viết ra trở nên dễ hiểu cho mình và người đọc code.
+ 
+Có 2 loại chú thích:
+\begin{itemize}
+\item Chú thích chỉ trong một dòng: bắt đầu bằng dấu \textit{\#}
+\item Chú thích trải dài trên nhiều dòng: các đoạn chú thích sẽ nằm giữa 2 dấu nháy \textit{'''}
+\end{itemize}
+\begin{example}
+$\bullet$ Chú thích một dòng: \textit{\#} Tính tổng 2 số \newline
+$\bullet$ Chú thích nhiều dòng: \newline \textit{'''} Tính tổng 2 số \newline Input: 2 số nguyên \newline Output: Tổng 2 số \textit{'''}
+\end{example} 
+\hyperlink{cuphap}{\beamerbutton{Back}}
+\end{frame}
 %------------------------------------------------
 
+\section{Phép toán căn bản.}
+\begin{frame}[label=pheptoan]
+\frametitle{Phép toán căn bản}
 
+\begin{itemize}
+\item Cộng, trừ, nhân \hyperlink{congtru}{\beamerbutton{$\unrhd$}}
+\item Phép chia và chia lấy dư  \hyperlink{phepchia}{\beamerbutton{$\unrhd$}}
+\item Lấy số mũ \hyperlink{laysomu}{\beamerbutton{$\unrhd$}}
+\end{itemize}
 
-\begin{frame}
-\Huge{\centerline{Thank you}}
+\hyperlink{intro}{\beamerbutton{Back}}
+\hyperlink{cautrucdulieu}{\beamerbutton{Next}}
 \end{frame}
 
+\begin{frame}[label=congtru]
+\frametitle{Phép cộng, trừ, nhân, chia}
+Các phép toán cộng, trừ, nhân trong python được biểu diễn như sau.
+
+\begin{itemize}
+\item Phép cộng được biểu diễn bằng dấu \textit{+}
+\begin{example}
+$1 + 1$
+\end{example} 
+\item Phép trừ được biểu diễn bằng dấu \textit{-}
+\begin{example}
+$2 - 1$
+\end{example} 
+
+\item Phép nhân được biểu diễn bằng dấu \textit{*}
+
+\begin{example}
+$2 * 1$
+\end{example} 
+
+\end{itemize}
+
+\hyperlink{pheptoan}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=phepchia]
+\frametitle{Phép chia và chia có dư (modulo)}
+Các phép toán chia và chia lấy dư được biểu diễn trong python như sau.
+\begin{itemize}
+\item Phép chia được biểu diễn bằng dấu \textit{$\backslash$}
+\begin{example}
+$2 \backslash 1$ 
+\end{example} 
+\item Lấy số dư của phép chia dùng dấu \textit{ \%}
+\begin{example}
+$3 \% 2$
+\end{example} 
+\end{itemize}
+\hyperlink{pheptoan}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=laysomu]
+\frametitle{Phép lấy số mũ}
+Để lấy số mũ sử dụng $**$
+
+\begin{example}
+$3 ** 3$
+\end{example} 
+
+\hyperlink{pheptoan}{\beamerbutton{Back}}
+\end{frame}
+
+
+\section{Các cấu trúc dữ liệu trong python.}
+\begin{frame}[label=cautrucdulieu]
+\frametitle{Các cấu trúc dữ liệu trong python}
+
+\begin{itemize}
+\item Chuỗi \hyperlink{string}{\beamerbutton{$\unrhd$}}
+\item Chỉ số chuỗi và các phép toán trên chuỗi \hyperlink{stringoper}{\beamerbutton{$\unrhd$}}
+\item Kiểu danh sách (List)  \hyperlink{list}{\beamerbutton{$\unrhd$}}
+\item Các phép toán trên danh sách  \hyperlink{listoper}{\beamerbutton{$\unrhd$}}
+\end{itemize}
+
+\hyperlink{intro}{\beamerbutton{Back}}
+\hyperlink{luanly}{\beamerbutton{Next}}
+\end{frame}
+
+\begin{frame}[label=string]
+\frametitle{Kiểu dữ liệu chuỗi }
+Một chuỗi có thể chứa:
+\begin{itemize}
+\item Các kí tự, các kí tự cần được đặt trong dấu nháy kép $""$
+\begin{example}
+$name = "mickey"$ 
+\end{example} 
+\item hoặc các số, các số cần được đặt trong dấu nháy kép $""$
+\begin{example}
+$age = "80"$
+\end{example} 
+\ding{43} Nếu một số mà không đặt trong dấu ngoặc kép thì nó mang một giá trị thực
+\begin{example}
+80 thì không bằng với "80"
+\end{example} 
+\end{itemize}
+\hyperlink{cautrucdulieu}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=stringoper]
+\frametitle{Chỉ số chuỗi và các phép toán trên chuỗi }
+
+Một chuỗi được biểu diễn bằng một mảng các kí tự:
+\begin{center}
+ \begin{tabular}{| l | l | l | l | l| l|}
+    \hline
+    m & i & c & k & e & y \\ \hline
+    0 & 1 & 2 & 3 & 4 & 5 \\ \hline 
+
+    \end{tabular}
+\end{center}
+
+Trên một chuỗi (ví dụ: $name = "mickey"$) cho trước ta có thể:    
+\begin{itemize}
+\item Lấy ra một kí tự trong chuỗi sử dụng chỉ số: \textit{chuỗi[chỉ số]}
+\begin{example}
+$first\_char = name[0]$ 
+\end{example} 
+\item Cộng với một chuỗi khác sử dụng dấu $+$
+\begin{example}
+$"mickey" + " is" + " a" + " mouse" $
+\end{example} 
+\ding{43} python có sẵn các phương thức để thao tác trên string, ví dụ upper(), lower(), để chuyển chuỗi thành in hoa hay thường.
+
+\end{itemize}
+\hyperlink{cautrucdulieu}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=list]
+\frametitle{Kiểu danh sách }
+
+$\bullet$ Kiếu danh sách có thể được sử dụng để lưu một danh sách thông tin có thứ tự. 
+Ví dụ, một danh sách các nhân viên trong công ty, danh sách tên các máy tính có trong công ty.
+\begin{center}
+ \begin{tabular}{| l | l | l | l |}
+    \hline
+    mickey & donald & tom & jerry  \\ \hline
+    0 & 1 & 2 & 3  \\ \hline 
+
+    \end{tabular}
+\end{center}
+
+$\bullet$ Trong python, một list bao gồm các phần tử được đặt trong dấu ngoặc vuông và ngăn cách nhau bởi dấu $,$    
+
+\begin{example}
+$name\_list = ['mickey', 'donald', 'tom', 'jerry']$ 
+\end{example} 
+
+$\bullet$ Chỉ số trong danh sách giống với trường hợp chuỗi, bắt đầu từ 0.
+
+\ding{43} Một danh sách có thể bao gồm các giá trị chuỗi kí tự hoặc số.
+
+\hyperlink{cautrucdulieu}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=listoper]
+\frametitle{Các phép toán trên danh sách }
+
+
+Trên danh sách (ví dụ: $name_list$) cho trước ta có thể:    
+\begin{itemize}
+\item Lấy ra một phần tử trong chuỗi sử dụng chỉ số: \textit{danh sách[chỉ số]}
+\begin{example}
+$first\_name = name_list[0]$ 
+\end{example} 
+\item Xác định kích thước của danh sách sử dụng: $len(name_list)$
+\begin{example}
+$len(name\_list) $
+\end{example} 
+
+\item Thay thế một phần tử trong danh sách dựa trên chỉ số: \textit{danh sách [chỉ số] = giá trị mới} $len(name\_list)$
+\begin{example}
+$name\_list[0] = "scuby" $
+\end{example}
+
+
+\end{itemize}
+\hyperlink{cautrucdulieu}{\beamerbutton{Back}}
+\end{frame}
+
+\section{So sánh luận lý và rẽ nhánh.}
+\begin{frame}[label=luanly]
+\frametitle{So sánh luận lý và rẽ nhánh}
+
+\begin{itemize}
+\item Các phép so sánh luận lý \hyperlink{sosanh}{\beamerbutton{$\unrhd$}}
+\item Rẽ nhánh  \hyperlink{renhanh}{\beamerbutton{$\unrhd$}}
+
+\end{itemize}
+\hyperlink{intro}{\beamerbutton{Back}}
+\hyperlink{vonglap}{\beamerbutton{Next}}
+\end{frame}
+
+\begin{frame}[label=sosanh]
+\frametitle{So sánh luận lý}
+Các phép toán so sánh trong python
+\begin{itemize}
+\item So sánh bằng $==$ 
+
+\item So sánh không bằng $!=$
+ 
+\item So sánh lớn hơn $>$
+
+\item So sánh lớn hơn hoặc bằng $>=$
+
+\item So sánh nhỏ hơn $<$
+
+\item So sánh nhỏ hơn hoặc bằng $<=$
+\end{itemize}
+
+\ding{43} Các phép so sánh sẽ trả về các giá trị luận lý (boolean) để làm cơ sở cho việc thực hiện rẽ nhánh của chương trình.
+
+\hyperlink{luanly}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=renhanh]
+\frametitle{Rẽ nhánh}
+Dựa trên các kết quả từ các phép so sánh để rẽ nhãnh chương trình sử dụng cấu trúc $if else $
+
+\begin{example}
+if (4 > 3):\newline
+(căn lề)	print("4 lon hon 3")\newline
+else:\newline
+(căn lề)	print("4 nho hon 3")\newline
+\end{example}
+
+
+\ding{43} Chú ý khi viết các phép rẽ nhánh các dòng lệnh sau dấu $:$ cần phải được thụt vào thường là 4 khoảng trắng.
+
+\hyperlink{luanly}{\beamerbutton{Back}}
+\end{frame}
+
+\section{Cấu trúc lặp.}
+\begin{frame}[label=vonglap]
+\frametitle{Cấu trúc lặp.}
+
+Sử dụng các cấu trúc lặp để thao tác trên các cấu trúc dữ liệu có nhiều phần tử. Ví dụ, liệt kê các file trên một thư mục, các events trong log file.
+\begin{itemize}
+\item Vòng lặp for \hyperlink{vongfor}{\beamerbutton{$\unrhd$}}
+\item Vòng lặp while  \hyperlink{vongwhile}{\beamerbutton{$\unrhd$}}
+
+\end{itemize}
+\hyperlink{intro}{\beamerbutton{Back}}
+\hyperlink{ham}{\beamerbutton{Next}}
+\end{frame}
+
+\begin{frame}[label=vongfor]
+\frametitle{Vòng lặp for.}
+
+Sử dụng for để lặp qua các danh sách hay chuỗi. Ví dụ lặp qua danh sách các files trong thư mục, hay các events trong log file
+
+\begin{example}
+\textbf{for} \textit{biến lặp} \textbf{in} \textit{đối tượng lặp}\textbf{:}\newline
+(căn lề)hành động
+\end{example}
+
+\hyperlink{vonglap}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=vongwhile]
+\frametitle{Vòng lặp While.}
+
+Lặp lại thực hiện các hành động cho đến miễn khi điều kiện còn đúng. Vòng lặp while được dùng để thực hiện các lặp vô hạn (while(True))
+
+\begin{example}
+\textbf{while} (biểu thức điều kiện)\textbf{:} \newline
+(căn lề) hành động
+\end{example}
+
+\hyperlink{vonglap}{\beamerbutton{Back}}
+\end{frame}
+
+\section{Hàm trong python.}
+\begin{frame}[label=ham]
+\frametitle{Hàm trong python.}
+
+Sử dụng hàm (function) để thực hiện nhiều đoạn mã mà lặp đi lặp lại. Việc sử dụng hàm còn giúp cho chương trình trở nên dễ hiểu về dễ dàng mở rộng.
+\begin{itemize}
+\item Định nghĩa một hàm \hyperlink{dinhnghiaham}{\beamerbutton{$\unrhd$}}
+\item Sử dụng một hàm  \hyperlink{goiham}{\beamerbutton{$\unrhd$}}
+
+\end{itemize}
+\hyperlink{intro}{\beamerbutton{Back}}
+\hyperlink{goithuvien}{\beamerbutton{Next}}
+\end{frame}
+
+\begin{frame}[label=dinhnghiaham]
+\frametitle{Định nghĩa hàm.}
+
+Định nghĩa một hàm sử dụng từ khóa $def$ theo sau bởi các tham số, thân hàm bao gồm các đoạn mã cần lặp và giá trị trả về (nếu có)
+
+\begin{example}
+\textbf{def} tên hàm(tham số )\textbf{:}\newline
+(căn lề)các đoạn mã xử lý \newline
+(căn lề) \textbf{return} giá trị trả về
+\end{example}
+\hyperlink{ham}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=goiham]
+\frametitle{Gọi hàm.}
+
+Gọi hàm bằng cách gọi tên hàm và cung cấp các tham số (nếu có)
+
+\begin{example}
+tên hàm (tham số)
+\end{example}
+
+Nếu hàm có giá trị trả về thì gán giá trị trả về thông qua một biến trung gian:
+
+\begin{example}
+giá trị trả về = tên hàm (tham số)
+\end{example}
+
+\hyperlink{ham}{\beamerbutton{Back}}
+\end{frame}
+
+
+\section{Cài đặt và sử dụng các gói thư viên trong python.}
+\begin{frame}[label=goithuvien]
+\frametitle{Hàm trong python.}
+
+Python có rất nhiều các thư viện giúp thao tác với hệ thống. Để sử dụng một thư viện sử dụng cấu trúc $import tên thư viện$
+\begin{example}
+import os
+\end{example}
+
+Nếu thư viện chưa sẵn có trên hệ thống có thể tải về bằng nhiều cách. Dưới đây sử dụng \textbf{pip} để cài đặt
+
+\begin{example}
+\textbf{pip install} tên thư viện
+\end{example}
+\end{frame}
 %----------------------------------------------------------------------------------------
 
 \end{document}

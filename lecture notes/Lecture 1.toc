@@ -1,3 +1,10 @@
 \beamer@endinputifotherversion {3.33pt}
 \beamer@sectionintoc {1}{T\IeC {\d a}i sao d\IeC {\`u}ng Python ? .}{3}{0}{1}
-\beamer@sectionintoc {2}{Ch\IeC {\uhorn }\IeC {\ohorn }ng Tr\IeC {\`\i }nh H\IeC {\d o}c.}{4}{0}{2}
+\beamer@sectionintoc {2}{Thi\IeC {\'\ecircumflex }t l\IeC {\d \acircumflex }p m\IeC {\^o}i tr\IeC {\uhorn }\IeC {\`\ohorn }ng.}{4}{0}{2}
+\beamer@sectionintoc {3}{C\IeC {\'u} ph\IeC {\'a}p c\IeC {\u a}n b\IeC {\h a}n.}{5}{0}{3}
+\beamer@sectionintoc {4}{Ph\IeC {\'e}p to\IeC {\'a}n c\IeC {\u a}n b\IeC {\h a}n.}{10}{0}{4}
+\beamer@sectionintoc {5}{C\IeC {\'a}c c\IeC {\'\acircumflex }u tr\IeC {\'u}c d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u trong python.}{14}{0}{5}
+\beamer@sectionintoc {6}{So s\IeC {\'a}nh lu\IeC {\d \acircumflex }n l\IeC {\'y} v\IeC {\`a} r\IeC {\~e} nh\IeC {\'a}nh.}{19}{0}{6}
+\beamer@sectionintoc {7}{C\IeC {\'\acircumflex }u tr\IeC {\'u}c l\IeC {\d \abreve }p.}{22}{0}{7}
+\beamer@sectionintoc {8}{H\IeC {\`a}m trong python.}{25}{0}{8}
+\beamer@sectionintoc {9}{C\IeC {\`a}i \IeC {\dj }\IeC {\d \abreve }t v\IeC {\`a} s\IeC {\h \uhorn } d\IeC {\d u}ng c\IeC {\'a}c g\IeC {\'o}i th\IeC {\uhorn } vi\IeC {\^e}n trong python.}{28}{0}{9}
