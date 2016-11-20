@@ -141,3 +141,39 @@ import psutil
 
 # Liet ke cac tien trinh
 print("Danh sach cac tien trinh: {}".format(psutil.pids()))
+
+name = [1, 2, 3, 4, 5]
+
+def tong(a,b):
+	c = (a + b)
+	d = c * 100
+	return d
+
+def tich_thuong(a, b):
+	c = (a * b)
+	d = c /100
+	return d
+
+print("Trung binh: {}".format(name[0] + name[1] + name[2] + name[3] + name[4]/ 5))
+
+def tinhtrungbinh(name):
+	trung_binh = 0
+	tong = 0
+	do_dai = len(name)
+	for i in name:
+		tong = tong + i
+
+	trung_binh = (tong / do_dai)
+
+	return trung_binh
+
+
+gia_tri_trung_binh = tinhtrungbinh(name)
+print("Gia tri trung binh dung ham: {}".format(gia_tri_trung_binh))
+
+so = [2, 3, 4,3, 4, 1 , 43, 12, 43]
+
+
+gia_tri_trung_binh = tinhtrungbinh(so)
+print("Gia tri trung binh dung ham 2: {}".format(gia_tri_trung_binh))
+s
