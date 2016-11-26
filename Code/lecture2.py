@@ -69,6 +69,21 @@ print("Duong dan chi toi mot tep tin ?: {}".format(os.path.isfile(path)))
 # Liet ke tat ca cac files trong mot thu muc
 import os
 
+# Liet ke cac users tren he thong
+import grp
+
+groups = grp.getgrall()
+
+print(type(groups))
+
+for group in groups:
+	if group.gr_name == "it":
+
+		print("Group: {}".format(group))
+		print("Group members: {}".format(group.gr_mem))
+		print("Ten group: {}".format(group.gr_name))
+
+
 f = []
 for (dirpath, dirnames, filenames) in os.walk(path):
     f.extend(filenames)
@@ -90,4 +105,12 @@ for i in (psutil.cpu_times()):
 	print(i)
 
 # Liet ke cac tien trinh
-psutil.pids()
+print(psutil.pids())
+
+# Su dung dia cung
+print(psutil.disk_usage('/home/lyvd/Documents'))
+
+# IP
+ipInfo = (psutil.net_if_addrs())
+for key, value in ipInfo.items():
+	print("Key {}: {}".format(key, value))
