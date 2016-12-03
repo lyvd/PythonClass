@@ -1,0 +1,199 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+\usepackage{nameref}
+\usepackage{multicol}
+\usepackage{pifont}
+\usepackage[T5]{fontenc}
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+\usepackage{amsmath,amssymb,latexsym}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\setbeamertemplate{caption}[numbered]
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Giao tiếp với mạng và cơ sở dữ liệu ]{Giao tiếp với mạng, web và cơ sở dữ liệu } % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Vũ Đức Lý} % Your name
+%\institute[UCLA] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\hyperlink{intro}{\beamerbutton{Start}}
+\end{frame}
+
+\begin{frame}[label=intro]
+\frametitle{Nội dung} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\section{Kiểu dữ liệu từ điển (dictionary)} 
+\begin{frame}[label=dict]
+\frametitle{Kiểu dữ liệu từ điển (dictionary)}
+Sử dụng kiểu từ điển khi không quan tâm đến thứ tự của các thành phần trong nó. Biến từ điển thường có hai thành phần: khóa (\textit{key}) và giá trị (\textit{value})
+
+\begin{example}
+$process\_dict = \{"pid": 321, "name": "http"\}$
+\end{example} 
+\hyperlink{intro}{\beamerbutton{Back}}
+\hyperlink{moitruong}{\beamerbutton{Next}}
+\end{frame}
+
+\begin{frame}[label=dictoper]
+\frametitle{Các thao tác trên từ điển}
+$\bullet$Lấy giá tri của key. 
+\begin{example}
+$process\_dict["pid"]$
+\end{example}
+$\bullet$ Thay đổi giá trị của key, thêm key.
+\begin{example}
+$process\_dict["pid"] = 123$ 
+$process\_dict["start_time"] = 12$
+\end{example}
+$\bullet$ Xóa một key
+\begin{example}
+$del  process\_dict["name"]$
+\end{example}
+\hyperlink{teptin}{\beamerbutton{Back}}
+\end{frame}
+
+\begin{frame}[label=vidunmap]
+\frametitle{Case study: Thu thập thông tin về mạng cục bộ}
+Sử python-nmap để thu thập thông tin về mạng. 
+
+$\bullet$ Lấy thông tin về scan
+\begin{example}
+$nm.scaninfo()$
+\end{example}
+$\bullet$ Lấy ra trạng thái port 
+\begin{example}
+$nm['127.0.0.1']['tcp'][80]['state'] $
+\end{example}
+$\bullet$ Lấy ra tất cả ports dựa trên giao thức (tcp, ip,...) 
+\begin{example}
+$nm['127.0.0.1'].all\_tcp() $
+\end{example}
+
+\hyperlink{teptin}{\beamerbutton{Back}}
+\end{frame}
+
+\section{Sử dụng cơ sở dữ liệu - MongoDB}
+\begin{frame}[label=cosodulieu]
+\frametitle{Sử dụng cơ sở dữ liệu - MongoDB}
+$\bullet$ MongoDB là một phần mềm cơ sở dữ liêu mã nguồn mở được thiết kế cho việc dễ dàng phát triển và mở rộng. MongoDB hỗ trợ Python.
+\begin{itemize}
+\item Khởi tạo kết nối tới MongoDB, tạo cơ sở dữ liệu
+\item chèn dữ liêu vào MongoDB
+\item Tìm kiếm dữ liệu
+\item Truy vấn dữ liệu
+\end{itemize}
+
+\hyperlink{teptin}{\beamerbutton{Back}}
+\end{frame}
+
+\section{Lưu trữ thông tin về mạng vào cơ sở dữ liệu}
+\begin{frame}[label=tonghop]
+\frametitle{Sử dụng cơ sở dữ liệu - MongoDB}
+$\bullet$ Công việc quản trị hệ thống yêu cầu thu thập thông tin và kiểm tra hệ thống hằng ngày và đưa ra các báo cáo (reports).
+\begin{itemize}
+\item Sử dụng python nmap hoặc psutil để lấy thông tin hệ thống.
+\item Lưu thông tin hệ thống theo ngày
+\item Thiết kế giao diện để truy vấn các thông tin
+\end{itemize}
+
+\hyperlink{teptin}{\beamerbutton{Back}}
+\end{frame}
+
+
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

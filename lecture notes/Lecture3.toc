@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Ki\IeC {\h \ecircumflex }u d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u t\IeC {\`\uhorn } \IeC {\dj }i\IeC {\h \ecircumflex }n (dictionary)}{3}{0}{1}
+\beamer@sectionintoc {2}{S\IeC {\h \uhorn } d\IeC {\d u}ng c\IeC {\ohorn } s\IeC {\h \ohorn } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u - MongoDB}{6}{0}{2}
+\beamer@sectionintoc {3}{L\IeC {\uhorn }u tr\IeC {\~\uhorn } th\IeC {\^o}ng tin v\IeC {\`\ecircumflex } m\IeC {\d a}ng v\IeC {\`a}o c\IeC {\ohorn } s\IeC {\h \ohorn } d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{7}{0}{3}
