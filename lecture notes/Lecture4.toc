@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.33pt}
+\beamer@sectionintoc {1}{Giao ti\IeC {\'\ecircumflex }p v\IeC {\'\ohorn }i c\IeC {\'a}c ti\IeC {\'\ecircumflex }n tr\IeC {\`\i }nh}{3}{0}{1}
+\beamer@sectionintoc {2}{X\IeC {\h \uhorn } l\IeC {\'y} l\IeC {\~\ocircumflex }i}{4}{0}{2}
+\beamer@sectionintoc {3}{Thao t\IeC {\'a}c tr\IeC {\d \uhorn }c ti\IeC {\'\ecircumflex }p v\IeC {\'\ohorn }i Pipes}{6}{0}{3}
