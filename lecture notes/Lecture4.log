@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.19)  17 DEC 2016 13:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.19)  17 DEC 2016 13:21
 entering extended mode
 **Lecture4.tex
 ("C:\Users\LyVu\Documents\GitHub\PythonClass\lecture notes\Lecture4.tex"
@@ -1593,10 +1593,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
  ) 
 Here is how much of TeX's memory you used:
- 18149 strings out of 493921
- 328465 string characters out of 3147285
+ 18153 strings out of 493921
+ 328620 string characters out of 3147285
  398062 words of memory out of 3000000
- 20961 multiletter control sequences out of 15000+200000
+ 20965 multiletter control sequences out of 15000+200000
  15499 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,16n,60p,398b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1609,14 +1609,13 @@ replaced by a fixed one
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/v
-nr/vnss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss12.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss8.pfb>
-Output written on Lecture4.pdf (6 pages, 132080 bytes).
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/vntex/vnr/vnss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss12
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/vntex/vnr/vnss8.pfb>
+Output written on Lecture4.pdf (6 pages, 124495 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
+ 251 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
