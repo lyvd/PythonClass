@@ -1,0 +1,21 @@
+- Kiem tra trang thai he thong:
++ File system
++ Dich vu
++ Kiem tra cac may tram cua cac nguoi dung 
+
+- Viet plugin cho nagios, snort, iptables.
+
+- Bao mat: 
++ Quet malware cho he thong
++ Quet cac lo haong bao mat cho cac dich vu (luon luon cap nhat )
+
+- Hacking
++ Ung dung quet port (nmap)
++ Ung dung pentest web (dua tren ma nguon mo)
+
+-
+- Ung dung bao mat quet cac tep dinh kem cua email
++ smtp
++ virustotal
+
+- Quan ly cac thiet bi mang (cisco, router)
